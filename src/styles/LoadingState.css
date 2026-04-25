@@ -1,0 +1,27 @@
+.loading-container{
+  min-height: 220px;            /* ឲវាមានកម្ពស់សម្រាប់ center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.box-loading{
+  width: min(520px, 90%);       /* ទំហំស្អាត + responsive */
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: red;          /* ឬ red បើចង់ */
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.muted{
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}

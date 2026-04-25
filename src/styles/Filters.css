@@ -1,0 +1,24 @@
+.chips{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip{
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 8px 10px;
+  cursor:pointer;
+  transition: 0.15s ease;
+}
+.chip:hover{ background: rgba(255,255,255,0.07); }
+.chip.active{
+  color: var(--text);
+  background: rgba(79,108,255,0.20);
+  border-color: rgba(79,108,255,0.35);
+}
+
+.range{ display:flex; flex-direction: column; gap: 10px; }
+.range-row{ display:flex; justify-content: space-between; align-items:center; }

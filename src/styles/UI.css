@@ -1,0 +1,11 @@
+.app{ min-height: 100vh; display:flex; flex-direction: column; }
+.main{ flex: 1; padding: 22px 0 40px; }
+
+.empty{
+  padding: 28px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.empty-actions{ margin-top: 14px; display:flex; gap: 10px; }
