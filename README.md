@@ -6,3 +6,4 @@
 - npm i @reduxjs/toolkit react-redux @tanstack/react-query
 - CreateUser.jsx , CreateRole.jsx, CreateCategory, EditCategory not use ( Redux for Create)
 Nak Thork mes
+Chop thork pleam bro nak
